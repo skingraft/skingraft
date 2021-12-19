@@ -1,0 +1,333 @@
+	body { background: #F8F8F8  ; color: #000000; font-family: 'open sans', sans-serif; font-size: 16px; font-weight:regular; overflow: scroll; }
+.container{
+	background-color:#fff;
+}
+.header{
+	margin-bottom:8px;
+	padding:0;
+}
+.header2{
+	margin-bottom:0;
+	padding:0;
+}
+.header .col-md-6{
+	padding-left:0;
+	padding-right:0;
+}
+.header .col-md-8{
+	padding-left:0;
+		padding-right:0;
+}
+.header .col-md-4{
+	padding-right:0;
+		padding-left:0;
+}
+.header .col-md-10{
+	padding-left:0;
+		padding-right:0;
+}
+.header .col-md-2{
+	padding-right:0;
+		padding-left:0;
+}
+.header2 .col-md-6{
+	padding-left:0;
+	padding-right:0;
+}
+.header2 .col-md-10{
+	padding-left:0;
+}
+.header2 .col-md-4{
+	padding-right:0;
+}
+.custom > li > a:hover {
+    color: white;
+    background-color:#cc3300;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color:#cc3300;
+}
+h1,h2 {
+	font-family: 'ITC Avant Garde Gothic Std','URW Gothic L','Century Gothic', 'Avant Garde', 'Trebuchet MS', sans-serif;	
+	font-weight:normal;
+	color:#444;
+}
+h2{
+	font-size:24px;
+}
+h3 {
+	font-size:20px;
+	color:#000;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+.myname{
+	margin-top:30px;
+	margin-left:28px;
+	font-size:50px;
+}
+.address {
+	text-align:right;
+}
+.credits {
+	text-align:right;
+}
+.lse-logo{
+	text-align:right;
+	max-width:95px;
+	width:100%;
+}
+a {
+    color:#c20fff;
+	/*Transition*/
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+}
+
+a:hover {
+  color:#3BA1DB;
+}
+p:before{
+  content: "";
+  width: 6em;
+  display: block;
+  overflow: hidden;
+}
+.myportrait {
+	width:230px;
+	margin-right:10px;
+	margin-bottom:10px;
+	border:0px solid #c20fff;
+}
+.pics {
+	width:150px;
+	margin-right:10px;
+	border:3px solid #d7d7d7;
+}
+.hidden-box {
+        cursor:pointer;
+	background-color:#FFFFFF;
+	border:1px  #000000;
+	padding:4px;
+	font-size:90%;
+	display:none; /* Hidden from non-javascript users; we bring it back with javascript */
+}
+.revealer {
+	cursor:pointer;
+}
+div#buttn {
+	padding: 8px 0 8px 0;
+	}
+
+a.buttbutt {
+	font-weight: bold;
+	text-align: right;
+	padding: 4px;
+	color: #ffffff;
+	background-color: #657F08;
+	}
+
+a.buttbutt:hover {
+	color: #ffffff;
+	background-color: #444444;
+	}
+.alert{
+padding: 12px 15px 8px 14px;
+margin-bottom: 18px;
+color: #cc3333;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+background-color: white;
+border: 1px solid white;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+@media only screen and (max-width: 760px) {
+    
+    /* Force table to not be like tables anymore */
+	#no-more-tables table, 
+	#no-more-tables thead, 
+	#no-more-tables tbody, 
+	#no-more-tables th, 
+	#no-more-tables td, 
+	#no-more-tables tr { 
+		display: block; 
+	}
+ 
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#no-more-tables thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	#no-more-tables tr { border: 1px solid #ccc; }
+ 
+	#no-more-tables td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+	}
+ 
+	#no-more-tables td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+ 
+	/*
+	Label the data
+	*/
+	#no-more-tables td:before { content: attr(data-title); }
+}
+.banner{
+  border-radius:5px;
+  background:#000 url('malevich.png') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:#fff;
+  font-size:24px;
+  text-align:center;
+  height:350px;
+  padding-top:80px;
+  letter-spacing:3px;
+  text-shadow: 1px 1px #000;
+  line-height:24px;
+}
+.banner2{
+  border-radius:5px;
+  background:#000 url('argonne2.png') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:#fff;
+  font-size:24px;
+  text-align:center;
+  height:400px;
+  padding-top:80px;
+  letter-spacing:3px;
+  text-shadow: 1px 1px #000;
+  line-height:24px;
+}
+.banner3{
+  border-radius:5px;
+  background:#000 url('klee.png') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:#fff;
+  font-size:24px;
+  text-align:center;
+  height:400px;
+  padding-top:80px;
+  letter-spacing:3px;
+  text-shadow: 1px 1px #000;
+  line-height:24px;
+}
+.banner4{
+  border-radius:5px;
+  background:#000 url('dgl.png') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:#fff;
+  font-size:24px;
+  text-align:center;
+  height:500px;
+  padding-top:80px;
+  letter-spacing:3px;
+  text-shadow: 1px 1px #000;
+  line-height:24px;
+}
+
+
+.borderless td {
+    border: none;
+}
+.btn-group-justified .btn {
+  float: float;
+  display: inline-block;
+  width: auto;
+}
+.btn-group-justified > .btn,
+.btn-group-justified > .btn-group {
+  float: none;
+  display: table-cell;
+  width: 1%;
+}
+.btn-group-justified > .btn-group > .btn {
+  width: 100%;
+}
+.panel-heading a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: right;
+    color: grey;
+}
+.panel-heading a.collapsed:after {
+    content:"\e080";
+}
+/*.panel-default > .panel-heading {
+  color: white;
+  background-color: #cc3300;
+  border-color: #ddd;
+}*/
+.dropdown-menu li.active > a:focus {
+background-color: #cc3300;
+}
+.dropdown-menu li.active > a,
+.dropdown-menu li.active > a:hover{
+	color: #ffffff;
+	background-color: #cc3300;
+	}
+pre {
+    display: block;
+    padding: 8.5px;
+    margin: 0 0 9px;
+    font-size: 12.025px;
+    line-height: 18px;
+    background-color: white;
+       border: white;
+    border: white;
+/*    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);*/
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+pre.prettyprint {
+    margin-bottom: 18px;
+}
+pre code {
+    padding: 0;
+    color: inherit;
+    background-color: transparent;
+    border: 0;
+}
+.pre-scrollable {
+    max-height: 340px;
+    overflow-y: scroll;
+}
+
+
