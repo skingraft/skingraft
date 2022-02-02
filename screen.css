@@ -1,6 +1,9 @@
 	body { background: #F8F8F8  ; color: #000000; font-family: 'open sans', sans-serif; font-size: 16px; font-weight:regular; overflow: scroll; }
 .container{
 	background: url(pattern.png);
+	background-size: contains;
+	width: 100%;
+        height: auto
 }
 .header{
 	margin-bottom:8px;
