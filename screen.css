@@ -67,6 +67,13 @@ h3 {
 	background-color:#ffffc2;
 	
 }
+
+br {
+  content: " ";
+  display: block;
+  margin: 10px;
+}
+
 .myname{
 	margin-top:30px;
 	margin-left:28px;
