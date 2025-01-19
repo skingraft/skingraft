@@ -21,13 +21,6 @@ body {
     margin: 20px 0; /* Add margin to separate the title from surrounding content */
 }
 
-/* Ensure no background pattern in the header */
-.container .header {
-    background: none; /* No pattern background in the header */
-}
-
-
-
   
 
 
@@ -180,6 +173,7 @@ br {
     font-size: 50px; /* Increased size for more impact */
     margin-top: 60px;
     margin-bottom: 40px;
+    background-color: white;
     text-align: center;
     font-family: 'ITC Avant Garde Gothic Std', 'URW Gothic L', 'Century Gothic', sans-serif;
     color: #FF5E5B; /* Eye-catching gradient color for added drama */
