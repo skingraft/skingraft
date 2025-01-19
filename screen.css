@@ -55,9 +55,31 @@ h1,h2 {
 }
 
 h2 {
-    font-size: 24px;
-    background-color: #d9b3ff;
+    font-size: 32px; /* Larger size for better prominence */
+    font-family: 'ITC Avant Garde Gothic Std', 'URW Gothic L', 'Century Gothic', sans-serif;
+    color: #333; /* Darker color for better contrast */
+    background-color: #d9b3ff; /* Keep your original background color */
+    padding: 15px 25px; /* Padding inside the box for better spacing */
+    border: 3px solid #cc3300; /* Solid border to frame the title */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    text-align: center; /* Center the text */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow to give depth */
+    text-transform: uppercase; /* Uppercase for a bold look */
+    margin-top: 30px; /* Margin to separate it from the content above */
+    margin-bottom: 20px; /* Space between the title and the content below */
+    animation: fadeIn 1s ease-out; /* Fade-in animation */
 }
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 
 h3 {
     font-size: 24px; /* Slightly larger for better readability */
@@ -98,8 +120,9 @@ br {
     text-align: center;
     font-family: 'ITC Avant Garde Gothic Std', 'URW Gothic L', 'Century Gothic', sans-serif;
     color: #FF5E5B; /* Eye-catching gradient color for added drama */
-    background-color: #FF5E5B; /* Solid background color for the headline */
-    padding: 15px; /* Padding around the text */
+    background: -webkit-linear-gradient(45deg, #FF5E5B, #F3A9A9); /* Gradient effect */
+    -webkit-background-clip: text; /* Clips the gradient to the text */
+    color: transparent; /* Makes the text color transparent so the gradient is visible */
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5), 0 0 25px rgba(255, 94, 91, 0.8), 0 0 5px rgba(255, 94, 91, 0.5); /* Dramatic multi-shadow effect */
     animation: glow 1.5s ease-in-out infinite alternate; /* Added glowing animation */
 }
@@ -116,6 +139,7 @@ br {
         text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5), 0 0 25px rgba(255, 94, 91, 0.8), 0 0 5px rgba(255, 94, 91, 0.5);
     }
 }
+
 
 .address {
     text-align: right;
