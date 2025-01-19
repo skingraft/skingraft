@@ -8,6 +8,32 @@ body {
     overflow: scroll; 
 }
 
+/* Make the background of the title section match the rest of the blog */
+.container .header .myname, 
+.container .header h3 {
+    background-color: #ffffc2; /* Same yellowish color as the other posts */
+    padding: 15px; /* Add some padding around the text */
+    border-radius: 8px; /* Optional: gives a rounded corner effect */
+}
+
+/* Optional: Make the title text stand out with a slight shadow */
+.container .header .myname {
+    color: #FF5E5B; /* You can keep your gradient color for the title text */
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5); /* Soft shadow for emphasis */
+}
+
+/* Optional: Adjusting font size of the heading for better visibility */
+.container .header h2 {
+    font-size: 2.5rem; /* Larger font size for the title */
+}
+
+/* Optional: Adjusting font size of the subheading for better readability */
+.container .header h3 {
+    font-size: 1.5rem; /* Slightly smaller than the title */
+    line-height: 1.6; /* Better line spacing */
+}
+
+
 /* Styles for the tables in the header section */
 .container .header .table {
     width: 100%;
