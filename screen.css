@@ -12,7 +12,7 @@ body {
     background-color: #ffffc2; /* Yellowish background for the title */
     padding: 20px; /* Add padding to create space around the title */
     border-radius: 8px; /* Optional: gives a rounded corner effect */
-    color: #FF5E5B; /* Title text color */
+    color: white; /* Title text color */
     text-align: center; /* Center the title text */
     font-family: 'ITC Avant Garde Gothic Std', 'URW Gothic L', 'Century Gothic', sans-serif;
     font-size: 3rem; /* Larger font size for the title */
