@@ -169,34 +169,6 @@ br {
     margin: 10px;
 }
 
-.myname {
-    font-size: 50px; /* Increased size for more impact */
-    margin-top: 60px;
-    margin-bottom: 40px;
-    background-color: white;
-    text-align: center;
-    font-family: 'ITC Avant Garde Gothic Std', 'URW Gothic L', 'Century Gothic', sans-serif;
-    color: #FF5E5B; /* Eye-catching gradient color for added drama */
-    background: -webkit-linear-gradient(45deg, #FF5E5B, #F3A9A9); /* Gradient effect */
-    -webkit-background-clip: text; /* Clips the gradient to the text */
-    color: transparent; /* Makes the text color transparent so the gradient is visible */
-    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5), 0 0 25px rgba(255, 94, 91, 0.8), 0 0 5px rgba(255, 94, 91, 0.5); /* Dramatic multi-shadow effect */
-    animation: glow 1.5s ease-in-out infinite alternate; /* Added glowing animation */
-}
-
-/* Keyframes for glowing effect */
-@keyframes glow {
-    0% {
-        text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5), 0 0 25px rgba(255, 94, 91, 0.8), 0 0 5px rgba(255, 94, 91, 0.5);
-    }
-    50% {
-        text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3), 0 0 35px rgba(255, 94, 91, 1), 0 0 10px rgba(255, 94, 91, 0.6);
-    }
-    100% {
-        text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5), 0 0 25px rgba(255, 94, 91, 0.8), 0 0 5px rgba(255, 94, 91, 0.5);
-    }
-}
-
 
 .address {
     text-align: right;
@@ -206,11 +178,7 @@ br {
     text-align: right;
 }
 
-.lse-logo {
-    text-align: right;
-    max-width: 95px;
-    width: 100%;
-}
+
 
 a {
     color: #c20fff;
