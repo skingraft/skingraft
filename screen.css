@@ -98,9 +98,8 @@ br {
     text-align: center;
     font-family: 'ITC Avant Garde Gothic Std', 'URW Gothic L', 'Century Gothic', sans-serif;
     color: #FF5E5B; /* Eye-catching gradient color for added drama */
-    background: -webkit-linear-gradient(45deg, #FF5E5B, #F3A9A9); /* Gradient effect */
-    -webkit-background-clip: text; /* Clips the gradient to the text */
-    color: transparent; /* Makes the text color transparent so the gradient is visible */
+    background-color: #FF5E5B; /* Solid background color for the headline */
+    padding: 15px; /* Padding around the text */
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5), 0 0 25px rgba(255, 94, 91, 0.8), 0 0 5px rgba(255, 94, 91, 0.5); /* Dramatic multi-shadow effect */
     animation: glow 1.5s ease-in-out infinite alternate; /* Added glowing animation */
 }
@@ -220,6 +219,9 @@ table td, table th {
 table th {
     background-color: #f1f1f1;
     color: #444;
+    font-size: 18px; /* Increased size for table header */
+    font-weight: bold; /* Bold for better visibility */
+    text-transform: uppercase; /* Added for emphasis */
 }
 
 table tr:nth-child(even) {
@@ -396,6 +398,7 @@ pre code {
     max-height: 340px;
     overflow-y: scroll;
 }
+
 
 
 
