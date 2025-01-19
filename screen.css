@@ -8,7 +8,7 @@ body {
     overflow: scroll; 
 }
 
-/* Make the background of the title section match the rest of the blog */
+/* Title background and styling */
 .container .header .myname { 
     background-color: #ffffc2; /* Yellowish background for the title */
     padding: 20px; /* Add padding to create space around the title */
