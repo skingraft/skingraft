@@ -8,7 +8,37 @@ body {
     overflow: scroll; 
 }
 
-.container{
+/* Styles for the tables in the header section */
+.container .header .table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffc2; /* Keeps the same background color */
+}
+
+.container .header .table td, .container .header .table th {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Optional: Styles for table headers inside the header section to make them more prominent */
+.container .header .table th {
+    font-size: 18px; /* Makes table headers larger */
+    font-weight: bold; /* Makes table headers bold */
+    background-color: #f1f1f1; /* Light background for headers */
+    color: #444; /* Ensures header text is dark for readability */
+}
+
+/* Optional: Add some space between rows for better readability */
+.container .header .table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for even rows */
+}
+
+.container .header .table tr:nth-child(odd) {
+    background-color: #ffffff; /* White background for odd rows */
+}
+
+.container {
     background: url(pattern2.png);
 }
 
