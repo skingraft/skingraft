@@ -1,5 +1,4 @@
-
-body { 
+body {  
     background: #F8F8F8;  
     color: #000000; 
     font-family: Verdana, sans-serif; 
@@ -22,6 +21,17 @@ body {
     margin: 20px 0; /* Add margin to separate the title from surrounding content */
 }
 
+/* Ensure no background pattern in the header */
+.container .header {
+    background: none; /* No pattern background in the header */
+}
+
+
+
+  
+
+
+
 /* Optional: Adjust the font size of the subheading for better readability */
 .container .header h3 {
     font-size: 1.5rem; /* Slightly smaller than the title */
@@ -34,10 +44,7 @@ body {
     margin: 10px 0; /* Margin to separate the subheading from the title */
 }
 
-/* Optional: Styling for the span text inside the title */
-.container .header .myname span {
-    color: red; /* Red color for the highlighted part of the title */
-}
+
 
 /* Optional: Add some margin for the table below the header */
 .container .header .table {
@@ -46,11 +53,6 @@ body {
 
 
 
-.container .header .table td, .container .header .table th {
-    padding: 12px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-}
 
 /* Optional: Styles for table headers inside the header section to make them more prominent */
 .container .header .table th {
